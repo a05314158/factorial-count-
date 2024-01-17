@@ -94,7 +94,7 @@ error_math = calculate_error(actual_result, result_math)
 error_stirling = calculate_error(actual_result, result_stirling)
 error_for_loop = calculate_error(actual_result, result_for_loop)
 
-# Вывод погрешности
+
 print(f"\nПогрешность для рекурсивного алгоритма: {error_recursive}%")
 print(f"Погрешность для алгоритма с использованием библиотеки math: {error_math}%")
 print(f"Погрешность для алгоритма с использованием формулы Стирлинга: {error_stirling}%")
